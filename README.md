@@ -1,2 +1,2 @@
 # Corgi-Roguelike
-A corgi thta becomes more powerful and mighty
+A corgi that becomes more powerful and mighty
