@@ -1,0 +1,49 @@
+# ------------------------------
+# Angular
+# ------------------------------
+
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+
+
+# ------------------------------
+# Python
+# ------------------------------
+
+backend/.venv/
+
+**/__pycache__/
+*.py[cod]
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+
+# ------------------------------
+# SQLite
+# ------------------------------
+
+backend/data/
+
+*.db
+*.sqlite
+*.sqlite3
+
+
+# ------------------------------
+# Environment / secrets
+# ------------------------------
+
+.env
+.env.*
+!.env.example
+
+
+# ------------------------------
+# Operating systems
+# ------------------------------
+
+.DS_Store
+Thumbs.db

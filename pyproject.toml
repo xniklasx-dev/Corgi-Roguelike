@@ -1,0 +1,15 @@
+[tool.pylint.main]
+init-hook = "import sys; sys.path.insert(0, 'backend')"
+
+ignore-paths = [
+    "frontend/.*",
+    "backend/.venv/.*",
+    "backend/migrations/versions/.*",
+]
+
+[tool.pylint.messages_control]
+disable = [
+    "C0114", # missing-module-docstring
+    "C0115", # missing-class-docstring
+    "C0116", # missing-function-docstring
+]
