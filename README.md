@@ -50,8 +50,27 @@ This automatically:
 
 ## Start development
 
+### VS Code setup (One-Time)
+
 ```powershell
-.\dev.cmd
+Ctrl + Shift + P
+→ Preferences: Open Keyboard Shortcuts (JSON)
+```
+
+There, add:
+
+```json
+{
+  "key": "ctrl+alt+d",
+  "command": "workbench.action.tasks.runTask",
+  "args": "MIGHTYCorgi: Dev"
+}
+```
+
+### Start Frontend and Backend
+
+```powershell
+Ctrl + Alt + D
 ```
 
 ### Frontend:
